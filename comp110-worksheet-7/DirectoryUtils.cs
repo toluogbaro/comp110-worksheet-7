@@ -21,7 +21,7 @@ namespace comp110_worksheet_7
 			return File.GetAttributes(path).HasFlag(FileAttributes.Directory);
 		}
 
-		// Return the total size, in bytes, of all the files below the given directory
+		// Return the total size, in bytes, of all the files below the given director
 		public static long GetTotalSize(string directory)
 		{
             string[] sizeOfDirectory = Directory.GetFiles(directory, "*.*", SearchOption.AllDirectories);
